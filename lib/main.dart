@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:nuclearphysicssimple/design/colors.dart';
 import 'package:nuclearphysicssimple/design/fontSize.dart';
 import 'package:nuclearphysicssimple/home/HomePage.dart';
+import 'package:nuclearphysicssimple/home/other/InfoPage.dart';
 
 void main() {
   runApp(const PhysicsSimple());

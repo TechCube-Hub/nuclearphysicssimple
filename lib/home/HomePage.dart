@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nuclearphysicssimple/design/colors.dart';
 import 'package:nuclearphysicssimple/design/fontSize.dart';
-import 'package:nuclearphysicssimple/home/nuclear%20physics/NuclearPhysicsPage.dart';
+import 'package:nuclearphysicssimple/home/nuclear%20physics/NuclearHomePage.dart';
+import 'package:nuclearphysicssimple/home/nuclear%20physics/computingInterface/NuclearPhysicsPage.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -15,7 +16,7 @@ class _HomePageState extends State<HomePage> {
   List topics = ['Magfizika'];
 
   List topicsScreens = [
-    const NuclearPhysicsPage(),
+    const NuclearHomePage(),
   ];
 
   List calculations = [
